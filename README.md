@@ -5,6 +5,30 @@
 
 > **Project status:** Firmware capacity-change experiment succeeded. Full capacity write/verify test was running at last report. NAND transplant and 1 TB operation are **not yet demonstrated**.
 
+## 🚧 Currently on the Workbench
+
+**Project Status:** 🟢 Active Development  
+**Current Phase:** Phase 2 - NAND Transplant Preparation  
+**Last Updated:** October 10, 2026
+
+### 🔧 What I'm Working On
+
+- Identifying missing SMD components around the unused NAND footprints.
+- Planning donor NAND removal and BGA rework.
+- Preparing for the first NAND transplant experiment.
+
+### ✅ Latest Breakthrough
+
+**Experiment #001: SUCCESS!**
+
+Successfully reconfigured the SSD from 500 GB to 250 GB using Silicon Motion MPTool. H2testw completed full write/read verification with zero errors.
+
+### 🎯 Next Milestone
+
+Install additional NAND packages and determine whether the SM2259XT controller recognizes the expanded flash configuration.
+
+---
+
 ![Original Axiom SSD PCB with populated NAND packages](images/pcb-populated.jpg)
 
 ## The idea
