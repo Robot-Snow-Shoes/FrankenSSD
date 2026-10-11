@@ -8,8 +8,7 @@
 **MPTool outcome:** Blue `Pass! Firmware: S1120A0 (IMN28R)`.  
 **After power cycle:** Windows Disk Management reported 232.83 GiB, disk uninitialized.  
 **After GPT + NTFS format:** `FrankenSSD (F:)`, approximately 232.81 GiB volume.  
-**Integrity check:** H2testw started, result pending.
-
+**Integrity check:** H2testw completed full write/read verification with ZERO errors. PASS.
 ### Lessons learned
 
 - MPTool did not enumerate the drive when attached through an ASM1166 SATA controller passed to a Windows VM; native SATA on Windows 11 worked.
@@ -18,8 +17,7 @@
 
 ## Next entries
 
-- [ ] Record H2testw results and elapsed time
-- [ ] Restore 500 GB and validate detection
+- [x] Record H2testw results (PASS, zero errors; elapsed time not recorded)- [ ] Restore 500 GB and validate detection
 - [ ] Identify actual passive-component footprints on empty NAND sites
 - [ ] Identify BGA package pitch/ball map
 - [ ] Perform donor removal/reball trial
