@@ -90,6 +90,21 @@ See [Component investigation worksheet](docs/component-inventory.md).
 
 ## Project updates
 
+### Experiment #001: Firmware Capacity Test - SUCCESS! 🎉
+
+- Original SSD capacity: 500 GB
+- Reconfigured capacity: 250 GB
+- Controller: Silicon Motion SM2259XT
+- MPTool manual LBA: `488281250`
+- Windows successfully recognized the new capacity.
+- **H2testw completed write and verification testing with ZERO errors!**
+
+**Conclusion:** We successfully modified the SSD's reported capacity and verified that the reconfigured storage works correctly.
+
+**Next:** Prepare for the NAND transplant experiment to investigate expanding the SSD to 1 TB.
+
+*The NAND transplant and 1 TB operation have not yet been tested.*
+
 Follow along as we turn the experiment into a reproducible lab notebook. Results, failures, and the occasional escaped 0402 capacitor all belong here.
 
 ---
