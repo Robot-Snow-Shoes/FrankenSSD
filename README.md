@@ -45,8 +45,7 @@ This is a hobby electronics experiment, **not** a proven upgrade guide or a reco
 
 **Why 232.83?** Windows displays binary units (GiB) while often labeling them “GB.” `488281250 × 512` bytes is exactly 250 GB decimal, approximately 232.83 GiB.
 
-## Evidence gallery
-
+## The Workbench
 | Populated side | Empty NAND footprints |
 | --- | --- |
 | ![Installed NAND packages](images/pcb-populated.jpg) | ![Empty NAND footprints](images/pcb-empty-footprints.jpg) |
