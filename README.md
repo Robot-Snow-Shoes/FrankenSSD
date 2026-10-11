@@ -37,8 +37,7 @@ This is a hobby electronics experiment, **not** a proven upgrade guide or a reco
 | Reprogram reported capacity | ✅ Complete | Manual LBA `488281250` (250,000,000,000 bytes) |
 | Reboot and confirm new geometry | ✅ Complete | Windows Disk Management reported ~232.83 GiB |
 | Initialize and format | ✅ Complete | `FrankenSSD (F:)`, NTFS, ~232.81 GiB formatted |
-| Full write/verify (H2testw) | ⏳ Awaiting result | Test started; result not yet recorded |
-| Restore original 500 GB configuration | ⬜ Planned | Not yet tested |
+| Full write/verify (H2testw) | ✅ PASSED | Full write/read verification completed with zero errors || Restore original 500 GB configuration | ⬜ Planned | Not yet tested |
 | Identify supporting components | 🔎 Investigating | Some SMD footprints beside unused NAND locations are unpopulated |
 | Harvest and reball donor NAND | ⬜ Planned | Not yet performed |
 | Transplant NAND and required passives | ⬜ Planned | Not yet performed |
